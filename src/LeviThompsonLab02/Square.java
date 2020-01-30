@@ -9,6 +9,18 @@ package LeviThompsonLab02;
  *
  * @author levi.thompson
  */
-public class Square {
+public class Square extends Rectangle {
+
+    /*attribute of square, not entirely necessary since rectangles
+    attributes are inherited into square*/
+    double side = 1;
     
+    //constructor that prints the sides of the square
+    public Square(double side) {
+        //uses the parent constructor to "get" sides
+        super(side, side);        
+        this.side = side;
+
+        System.out.println("New Square: " + side);
+    }
 }

@@ -16,8 +16,12 @@ public class Runner {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Rectangle r = new Rectangle(2.5,5.5);
-        System.out.println(r.getArea());
+        Rectangle r = new Rectangle(2.5, 5.5);
+        Square s = new Square(3.5);
+       
+
     }
+
     
+
 }
