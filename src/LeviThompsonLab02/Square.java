@@ -16,11 +16,19 @@ public class Square extends Rectangle {
     double side = 1;
     
     //constructor that prints the sides of the square
-    public Square(double side) {
+    public Square(double side, String u) {
         //uses the parent constructor to "get" sides
-        super(side, side);        
+        super(side, side, u);        
         this.side = side;
 
         System.out.println("New Square: " + side);
     }
+
+    @Override
+    public String toString() {
+        return "Square of " + side;
+    }
+
+    
+    
 }

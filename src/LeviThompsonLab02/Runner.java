@@ -5,6 +5,7 @@
  */
 package LeviThompsonLab02;
 
+
 /**
  *
  * @author paul.kline
@@ -16,9 +17,12 @@ public class Runner {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Rectangle r = new Rectangle(2.5, 5.5);
-        Square s = new Square(3.5);
-       
+        Rectangle r = new Rectangle(2.5, 5.5, " meter(s)");
+        Square s = new Square(3.5, " meter(s)");
+        System.out.println(r);
+        System.out.println(s);
+        Measurement m = new Measurement(2.0, " meter(s)");
+        System.out.println(m);
 
     }
 
