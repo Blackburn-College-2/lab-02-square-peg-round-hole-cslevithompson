@@ -21,9 +21,9 @@ public class Rectangle {
         this.height = height;
         
         //new measure to be put within the print, "w" meaning width
-        Measurement w = new Measurement(width,u);
+        Measurement w = new Measurement((int) width,u);
         //new measure to be put within the print, "h" meaning height
-        Measurement h = new Measurement(height,u);
+        Measurement h = new Measurement((int) height,u);
 
         System.out.println("New Rectangle: " + w + " by " + h);
 

@@ -21,8 +21,6 @@ public class Runner {
         Square s = new Square(3.5, " meter(s)");
         System.out.println(r);
         System.out.println(s);
-        Measurement m = new Measurement(2.0, " meter(s)");
-        System.out.println(m);
 
     }
 

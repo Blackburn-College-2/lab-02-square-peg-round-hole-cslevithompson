@@ -20,8 +20,9 @@ public class Square extends Rectangle {
         //uses the parent constructor to "get" sides
         super(side, side, u);        
         this.side = side;
-
-        System.out.println("New Square: " + side);
+        
+        Measurement s = new Measurement((int)side, u);
+        System.out.println("New Square: " + s);
     }
 
     @Override
