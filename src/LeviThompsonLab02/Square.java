@@ -13,7 +13,7 @@ public class Square extends Rectangle {
 
     /*attribute of square, not entirely necessary since rectangles
     attributes are inherited into square*/
-    private double side = 1;
+    private double side;
     private Measurement s;
     
     //constructor that prints the sides of the square

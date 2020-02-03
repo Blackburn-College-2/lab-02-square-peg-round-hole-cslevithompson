@@ -21,7 +21,8 @@ public class Runner {
         Square s = new Square(3.5, " meter(s)");
         System.out.println(r);
         System.out.println(s);
-
+        Ellipse e = new Ellipse(3.5,4.5);
+        Circle c = new Circle(3.5);
     }
 
     
